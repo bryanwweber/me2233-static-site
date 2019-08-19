@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2018-08-27 08:00:00 UTC-04:00
+date: '2019-08-19 08:00:00 UTC-04:00'
 description: Welcome to ME 2233
 link: ''
 slug: welcome-to-me-2233
@@ -9,5 +9,7 @@ title: Welcome to ME 2233
 type: text
 ---
 
-Welcome to ME 2233 for Fall 2018. Our class meets Tuesday/Thursday at either 12:30 PM or 2:00 PM in
-UTEB 175.
+Welcome to ME 2234 for Fall 2019\. This is the class website, where you will be able to find homework assignments, quizzes, and other course materials. Other important websites will be
+
+- Gradescope: <https://gradescope.com>
+- Jupyter: <https://me2233.uconn.edu>

@@ -17,15 +17,15 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Bryan W. Weber"  # (translatable)
-BLOG_TITLE = "ME 2233 Fall 2018"  # (translatable)
+BLOG_TITLE = "ME 2233 Fall 2019"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://engr.uconn.edu/~weber/me2233/"
+SITE_URL = "https://weberb.engr.uconn.edu/me2233/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://engr.uconn.edu/~weber/me2233/"
 BLOG_EMAIL = "bryan.weber@uconn.edu"
-BLOG_DESCRIPTION = "This site contains materials for ME 2233 for Fall 2018"  # (translatable)
+BLOG_DESCRIPTION = "This site contains materials for ME 2233 for Fall 2019"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -137,7 +137,9 @@ NAVIGATION_LINKS = {
         ("/homework.html", "Homework"),
         ("/lectures.html", "Lectures & Quizzes"),
         ("/syllabus.html", "Syllabus"),
+        ("/calendar.html", "Course Calendar"),
         ("/materials.html", "Course Materials"),
+        ("https://gradescope.com", "Gradescope"),
     ),
 }
 
@@ -619,11 +621,11 @@ REDIRECTIONS = []
 # to `nikola deploy`.  If no arguments are specified, a preset
 # named `default` will be executed.  You can use as many presets
 # in a `nikola deploy` command as you like.
-DEPLOY_COMMANDS = {
-    'default': [
-        "rsync -avzP --checksum --delete output/ uconn:public_html/me2233",
-    ]
-}
+# DEPLOY_COMMANDS = {
+    # 'default': [
+    #     "rsync -avzP --checksum --delete output/ uconn:public_html/me2233",
+    # ]
+# }
 
 # github_deploy configuration
 # For more details, read the manual:
@@ -1099,7 +1101,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 SHOW_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
-# COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10

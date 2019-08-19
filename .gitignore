@@ -1,4 +1,5 @@
 .doit.db.*
+.doit.db
 output/
 cache/
 __pycache__/
@@ -10,3 +11,6 @@ state_data.json
 files/homework/
 files/slides/
 files/syllabus/
+
+.vscode
+.venv
